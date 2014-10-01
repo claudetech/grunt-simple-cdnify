@@ -19,7 +19,7 @@ module.exports = (grunt) ->
       options = _.extend({output: f.dest}, baseOptions)
       cdnify.processFile src, options, (err, html) =>
         if err?
-          grunt.log.error "Failed to compile: #{err}"
+          grunt.log.error "Failed to compile: #{err.message ? err}"
           grunt.fail.warn "cdnify task failed"
         count += 1
         done() if count == @files.length
