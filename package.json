@@ -1,6 +1,6 @@
 {
   "name": "grunt-simple-cdnify",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Task to use CDN through cdnify package.",
   "main": "index.js",
   "scripts": {
@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/claudetech/grunt-simple-cdnify",
   "dependencies": {
-    "cdnify": "^0.1.2",
+    "cdnify": "^0.1.4",
     "lodash": "^2.4.1"
   }
 }
